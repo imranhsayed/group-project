@@ -1,0 +1,119 @@
+body{
+    background-color: #c4d5c8;
+    font-family: 'Poppins', sans-serif;
+}
+
+/* Tasker container */
+.tasker {
+    max-width: 500px;
+    margin: 20px auto;
+    background-color: #f2f2f2;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    padding: 20px;
+    font-family: 'Arial', sans-serif;
+}
+
+/* Error message */
+.error {
+    color: #ff0000;
+    margin-bottom: 10px;
+    display: none;
+}
+
+/* Tasker header */
+.tasker-header {
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+/* Input field for task */
+#input-task {
+    flex: 1;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 50px;
+    margin-right: 10px;
+    font-size: 16px;
+}
+
+/* H1 and H2 */
+h1{
+    padding-top: 60px;
+    text-align: center;
+    color: #000;
+    font-weight: 700;
+    line-height: 10px;
+}
+
+h3 {
+    text-align: center;
+    color: #000;
+    font-weight: 300;
+}
+
+
+/* #add-task-btn i {
+display: none;
+} */
+
+#add-task-btn svg {
+    fill: #fff;
+}
+
+/* Remove Task button */
+button{
+    border-radius: 20px;
+    padding: 7px 10px 7px 10px;
+    border-color: aquamarine;
+}
+
+/* Add task button */
+#add-task-btn {
+    background-color: #4caf50;
+    color: #fff;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    padding: 10px 15px;
+    font-size: 16px;
+}
+
+/* Tasker body */
+.tasker-body {
+    overflow-y: auto;
+}
+
+/* Task list */
+#tasks {
+    list-style-type: none;
+    padding: 0;
+}
+
+/* Task item */
+#tasks li {
+    background-color: #fff;
+    margin-bottom: 10px;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* Complete task icon */
+#tasks li i {
+    color: #4caf50;
+    cursor: pointer;
+}
+
+/* Hover effect for task item */
+#tasks li:hover {
+    background-color: #f9f9f9;
+}
+
+.completed {
+    text-decoration: line-through;
+}
